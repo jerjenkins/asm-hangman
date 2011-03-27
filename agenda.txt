@@ -3,4 +3,4 @@
 - Create a Jenkins build on the fly
 - Use Cards/Tape for task tracking
 - Fill out Cards on the fly
-- Tape based kanban/board prepared "TODO, Being Developed, Finished, Accepted, Delivered"
+- Tape based kanban/board prepared "Backlog, Being Developed (Jeremy & Sukant lanes), Finished, Accepted"

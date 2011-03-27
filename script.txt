@@ -1,0 +1,55 @@
+Planning
+========
+What do we want to build (Hangman)
+Decompose problem
+    - source control solution
+    - CI solution
+    - Beginning a game of Hangman :
+        - Input into the game a Word.
+
+    - Ability to win Hangman :
+        - Able to guess letter(s)
+        - After each guess, the ability to see if we've won
+        - Winning means that we've guessed every letter of the input phrase
+
+    - Ability to lose Hangman :
+        - If we have guessed a letter that doesn't exist in the phrase 5 times,
+          and have not yet won...  we have lost
+
+    - Enable multi-word inputs into the game
+    - Double guessing a character should not count against the player
+
+setup
+=====
+
+mvn archetype:generate
+"tree"
+cd <hangman>
+git init
+login github
+"create Repository"
+follow github notes
+
+login as Services
+start Jenkins
+configure Jenkins to point at github read-only URL
+
+code
+====
+
+Jeremy Drives
+-------------
+Impl Creating a Game
+Impl Ability to Win (Introduce a bug, don't do a local mvn test, push)
+
+Sukant Drives
+-------------
+Switch Users with Jenkins at front
+Notice broken build
+Fix Bug
+Impl Ability to Lose
+Fix Bug
+Add ability to Lose
+
+Done
+----
