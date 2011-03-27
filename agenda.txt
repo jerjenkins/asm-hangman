@@ -1,0 +1,6 @@
+- Tell them what we're going to tell them
+- Create Git repo on the fly
+- Create a Jenkins build on the fly
+- Use Cards/Tape for task tracking
+- Fill out Cards on the fly
+- Tape based kanban/board prepared "TODO, Being Developed, Finished, Accepted, Delivered"
