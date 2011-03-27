@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Hangman_with_no_right_moves {
+public class Test_Hangman_with_no_right_moves {
 
     private Hangman hangman;
 

@@ -8,7 +8,8 @@ package org.atxsm.hangman;
     - double guessing letters
     - guessing after win/loss
     -
- */
+*/
+
 public class Hangman {
     private int guesses;
     private char[] board;

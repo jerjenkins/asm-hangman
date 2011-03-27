@@ -4,14 +4,13 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Hangman_with_winning_moves {
+public class Test_Hangman_with_empty_board {
 
     private Hangman hangman;
 
     @Before
     public void setup() {
         hangman = new Hangman("w");
-        hangman.guess('w');
     }
 
     @Test
@@ -20,7 +19,7 @@ public class Hangman_with_winning_moves {
     }
 
     @Test
-    public void should_have_won() {
-        assertTrue(hangman.hasWon());
+    public void should_not_have_won_yet() {
+        assertFalse(hangman.hasWon());
     }
 }
